@@ -2,17 +2,19 @@
 Crie uma variável qualquer, que receba um array com alguns valores aleatórios
 - ao menos 5 - (fica por sua conta os valores do array).
 */
-// ?
+ var vari =[1,2,3,4,5];
 
 /*
 Crie uma função que receba um array como parâmetro, e retorne esse array.
 */
-// ?
+ function retarray(vet){
+  return vet;
+ }
 
 /*
 Imprima o segundo índice do array retornado pela função criada acima.
 */
-// ?
+retarray(vari)[1];
 
 /*
 Crie uma função que receba dois parâmetros: o primeiro, um array de valores; e o
@@ -20,18 +22,24 @@ segundo, um número. A função deve retornar o valor de um índice do array que
 no primeiro parâmetro. O índice usado para retornar o valor, deve ser o número passado no
 segundo parâmetro.
 */
-// ?
+function getByIndex(vet, index){
+  return vet[index];
+}
 
 /*
 Declare uma variável que recebe um array com 5 valores, de tipos diferentes.
 */
-// ?
+var array5 = [1, "dois", false, {posição: "quarta"}, null];
 
 /*
 Invoque a função criada acima, fazendo-a retornar todos os valores do último
 array criado.
 */
-// ?
+getByIndex(array5, 0);
+getByIndex(array5, 1);
+getByIndex(array5, 2);
+getByIndex(array5, 3);
+getByIndex(array5, 4);
 
 /*
 Crie uma função chamada `book`, que recebe um parâmetro, que será o nome do
@@ -47,7 +55,8 @@ propriedades:
 - Se o parâmetro não for passado, a função deve retornar o objeto com todos
 os livros.
 */
-// ?
+function book(name){
+  var 
 
 /*
 Usando a função criada acima, imprima o objeto com todos os livros.
